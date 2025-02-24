@@ -115,7 +115,7 @@ body {
 }
 
 .row .col {
-	padding: 0 12px;
+	padding: 0 10px;
 }
 
 @media (min-width: 1080px) {
@@ -185,9 +185,6 @@ body {
 }
 
 @media (max-width: 1079px) {
-	.row .col {
-	padding: 10px;
-	}
 
 	.row .col.col-t-12,
 	.row .col.col-t-11,
@@ -255,9 +252,6 @@ body {
 }
 
 @media (max-width: 720px) {
-	.row .col {
-	padding: 8px;
-	}
 
 	.row .col.col-m-12,
 	.row .col.col-m-11,

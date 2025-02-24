@@ -105,10 +105,11 @@ $(function () {
 		nav: false,
 		dots: true,
 		loop: true,
-		smartSpeed: 3000,
+		autoHeight: false,
+		smartSpeed: 1000,
 		mouseDrag: true,
 		touchDrag: true,
-		autoplay: true
+		autoplay: false
 	});
 
 

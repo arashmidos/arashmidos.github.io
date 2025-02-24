@@ -199,19 +199,8 @@ header .menu-btn span:after {
 
 /* 3. Section */
 .section {
-	padding: 50px 0;
+	padding: 35px 0;
 	position: relative;
-}
-
-.section.blog-posts {
-	padding-top: 10px;
-}
-
-@media (max-width: 1080px) {
-	.section {
-		padding: 35px 0;
-	}
-
 }
 
 .section .title {
@@ -293,7 +282,6 @@ header .menu-btn span:after {
 	display: block;
 	width: 100%;
 	height: 100%;
-	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 	border-radius: 100%;
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
@@ -384,7 +372,6 @@ header .menu-btn span:after {
 	display: block;
 	width: 100%;
 	height: 100%;
-	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 	border-radius: 100%;
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
@@ -519,15 +506,24 @@ header .menu-btn span:after {
 	align-items: center;
 	width: 100%;
 	height: 100%;
-	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 	border-radius: 100%;
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
 	-khtml-border-radius: 100%;
 }
 
-@media (max-width: 720px) {
+.st-box .st-soc .phone-btn,
+.st-box .st-soc .email-btn,
+.preview-item,
+button:active,
+a:active {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	user-select: none;
+	outline: none;
+}
 
+@media (max-width: 720px) {
 	.st-box .st-soc .phone-btn,
 	.st-box .st-soc .email-btn,
 	.st-box .st-soc a {
@@ -679,6 +675,10 @@ header .menu-btn span:after {
 	-moz-transition: all 0.2s ease 0s;
 	-webkit-transition: all 0.2s ease 0s;
 	-o-transition: all 0.2s ease 0s;
+}
+
+.section.skills .title {
+	height: 80px;
 }
 
 @media (max-width: 720px) {
@@ -1130,6 +1130,7 @@ header .menu-btn span:after {
 	align-items: center;
 	justify-content: center;
 	position: absolute;
+	margin: 0;
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
 	cursor: pointer;
@@ -1173,6 +1174,10 @@ header .menu-btn span:after {
 		width: 100%;
 		height: 100%;
 	}
+
+	.modal-nav-btn {
+		bottom: 16px;
+	}	
 }
 
 /* 8. Projects */
@@ -1270,13 +1275,28 @@ header .menu-btn span:after {
 	text-align: center;
 }
 
+.reviews-carousel .content-box a {
+	width: fit-content;
+	align-self: center;
+	overflow: unset;
+}
+
 .featured-carousel.owl-carousel .owl-stage-outer,
 .reviews-carousel .owl-carousel .owl-stage-outer {
 	padding: 55px 0 0 0;
 }
 
-.reviews-carousel .owl-carousel .item {
+.reviews-carousel .item {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	padding: 0 2px 20px 2px;
+}
+
+.reviews-carousel .reviews-item {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .reviews-carousel .content-box .image {
@@ -1357,6 +1377,7 @@ header .menu-btn span:after {
 }
 
 /* 10. Featured */
+
 .section.featured .header-img {
 	margin-left: -16px;
 	margin-top: -16px;
@@ -1387,12 +1408,11 @@ header .menu-btn span:after {
 	}
 }
 
+.reviews-carousel .owl-carousel,
 .featured-carousel .owl-carousel {
 	display: flex;
 	flex-wrap: wrap;
-	/* Ensures responsiveness */
 	align-items: stretch;
-	/* Stretches all items to match the tallest */
 }
 
 .section.featured .content-box:hover {
@@ -1436,15 +1456,19 @@ header .menu-btn span:after {
 	margin: 0;
 }
 
+.reviews-carousel .owl-stage-outer,
 .featured-carousel .owl-stage-outer {
 	display: flex;
+	overflow: unset !important;
 }
 
+.reviews-carousel .owl-stage,
 .featured-carousel .owl-stage {
 	display: flex;
 	align-items: stretch;
 }
 
+.reviews-carousel .owl-item,
 .featured-carousel .owl-item {
 	display: flex;
 	align-items: stretch;
@@ -1456,12 +1480,14 @@ header .menu-btn span:after {
 	height: 100%;
 }
 
+.reviews-carousel .content-box,
 .featured-carousel .content-box {
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
 }
 
+.reviews-carousel .content-box p,
 .featured-carousel .content-box p {
 	flex-grow: 1;
 }
