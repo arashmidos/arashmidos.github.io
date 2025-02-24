@@ -101,11 +101,11 @@ $(function () {
 	/* Recommendations carousel */
 	$(".reviews-carousel .owl-carousel").owlCarousel({
 		items: 1,
-		margin: 0,
+		margin: 16,
 		nav: false,
 		dots: true,
 		loop: true,
-		smartSpeed: 1000,
+		smartSpeed: 3000,
 		mouseDrag: true,
 		touchDrag: true,
 		autoplay: true
@@ -119,7 +119,7 @@ $(function () {
 			720: { items: 2 },
 			1080: { items: 3 },
 		},
-		margin: 12,
+		margin: 16,
 		nav: false,
 		dots: true,
 		loop: false,
