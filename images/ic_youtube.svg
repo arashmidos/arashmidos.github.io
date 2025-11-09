@@ -1,0 +1,6 @@
+<!-- YouTube icon (rounded rectangle with play triangle) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="28" viewBox="0 0 40 28" role="img" aria-label="YouTube">
+  <title>YouTube</title>
+  <rect x="0.5" y="0.5" width="39" height="27" rx="6" ry="6" fill="#FF0000" stroke="none"></rect>
+  <polygon points="16,8 26,14 16,20" fill="#FFFFFF"></polygon>
+</svg>
