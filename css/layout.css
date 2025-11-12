@@ -1386,7 +1386,7 @@ a:active {
 	display: block;
 	width: calc(100% + 32px);
 	object-fit: cover;
-	/* aspect-ratio: 16/9; */
+	aspect-ratio: 1/1;
 }
 
 .section.featured .content-box {
