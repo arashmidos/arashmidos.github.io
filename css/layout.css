@@ -599,11 +599,12 @@ a:active {
 
 .intro-video {
 	border-radius: 8px;
-	height: 320px;
 	width: 100%;
+	height: auto;
+	aspect-ratio: 16/9; /* or whatever ratio you want */
 	object-fit: cover;
+	display: block;
 }
-
 @media (max-width: 850px) {
 	.intro-video {
 		margin: 0 0 12px 0;
