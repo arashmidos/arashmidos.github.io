@@ -597,11 +597,11 @@ a:active {
 	height: auto;
 }
 
-.intro-video {
+/* .intro-video {
 	border-radius: 8px;
 	width: 100%;
 	height: auto;
-	aspect-ratio: 16/9; /* or whatever ratio you want */
+	aspect-ratio: 16/9; 
 	object-fit: cover;
 	display: block;
 }
@@ -609,7 +609,31 @@ a:active {
 	.intro-video {
 		margin: 0 0 12px 0;
 	}
+} 
+*/
+/* responsive container that defines the visible box */
+.video-wrapper {
+  width: 100%;
+  aspect-ratio: 16/9;       /* choose the ratio you want (16/9, 4/3, 1/1, etc.) */
+  overflow: hidden;         /* crop any overflow so poster/video fill the box */
+  border-radius: 8px;
+  background: #000;         /* fallback while poster loads */
 }
+
+/* make the <video> fill the wrapper exactly */
+.intro-video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;        /* fill + crop, keeps center focus for both poster & video */
+  border: 0;                /* remove native borders/padding */
+}
+@media (max-width: 850px) {
+	.intro-video {
+		margin: 0 0 12px 0; /* keep this */
+	}
+}
+
 
 .info-list ul li {
 	font-size: 18px;
