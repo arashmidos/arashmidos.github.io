@@ -18,6 +18,11 @@ const mediaItems = {
         { type: 'video', src: 'files/ca_2_add_caard_conflict_view_offers.mp4' },
         { type: 'video', src: 'files/ca_3_no_club_offers.mp4' },
     ],
+    "Vude": [
+        { type: 'image', src: 'images/projects/tribes/vude/vude0.png' },
+        { type: 'image', src: 'images/projects/tribes/vude/vude1.png' },
+        { type: 'image', src: 'images/projects/tribes/vude/vude2.png' },
+    ],
 };
 
 let currentExperience = null;
