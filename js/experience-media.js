@@ -22,6 +22,8 @@ const mediaItems = {
         { type: 'image', src: 'images/projects/tribes/vude/vude0.png' },
         { type: 'image', src: 'images/projects/tribes/vude/vude1.png' },
         { type: 'image', src: 'images/projects/tribes/vude/vude2.png' },
+        { type: 'video', src: 'images/projects/tribes/vude/feed.mp4' },
+        { type: 'video', src: 'images/projects/tribes/vude/storebidsent.mp4' },
     ],
 };
 
