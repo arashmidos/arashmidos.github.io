@@ -25,6 +25,14 @@ const mediaItems = {
         { type: 'video', src: 'images/projects/tribes/vude/feed.mp4' },
         { type: 'video', src: 'images/projects/tribes/vude/storebidsent.mp4' },
     ],
+    "Vude": [
+        { type: 'image', src: 'images/projects/bravo/bravo-all.png' },
+        { type: 'image', src: 'images/projects/bravo/bravo0.webp' },
+        { type: 'image', src: 'images/projects/bravo/bravo1.webp' },
+        { type: 'image', src: 'images/projects/bravo/bravo2.webp' },
+        { type: 'image', src: 'images/projects/bravo/bravo3.webp' },
+        { type: 'image', src: 'images/projects/bravo/bravo4.webp' },
+    ],
 };
 
 let currentExperience = null;
