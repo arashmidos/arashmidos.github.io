@@ -25,7 +25,7 @@ const mediaItems = {
         { type: 'video', src: 'images/projects/tribes/vude/feed.mp4' },
         { type: 'video', src: 'images/projects/tribes/vude/storebidsent.mp4' },
     ],
-    "Vude": [
+    "Bravo": [
         { type: 'image', src: 'images/projects/bravo/bravo-all.png' },
         { type: 'image', src: 'images/projects/bravo/bravo0.webp' },
         { type: 'image', src: 'images/projects/bravo/bravo1.webp' },
