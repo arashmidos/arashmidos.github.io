@@ -33,6 +33,13 @@ const mediaItems = {
         { type: 'image', src: 'images/projects/bravo/bravo3.webp' },
         { type: 'image', src: 'images/projects/bravo/bravo4.webp' },
     ],
+    "Bala": [
+        { type: 'image', src: 'images/projects/balatarin/bala0.webp' },
+        { type: 'image', src: 'images/projects/balatarin/bala1.webp' },
+        { type: 'image', src: 'images/projects/balatarin/bala2.webp' },
+        { type: 'image', src: 'images/projects/balatarin/bala3.webp' },
+        { type: 'image', src: 'images/projects/balatarin/bala4.webp' },
+    ],
 };
 
 let currentExperience = null;
