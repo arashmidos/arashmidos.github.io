@@ -702,6 +702,7 @@ a:active {
 	-o-transition: all 0.2s ease 0s;
 }
 .category-set {
+	margin-bottom: 10px;
 	padding: 1px 5px;
 	display: inline-block;
 	vertical-align: top;
