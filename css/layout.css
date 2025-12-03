@@ -701,6 +701,23 @@ a:active {
 	-webkit-transition: all 0.2s ease 0s;
 	-o-transition: all 0.2s ease 0s;
 }
+.category-set {
+	padding: 1px 5px;
+	display: inline-block;
+	vertical-align: top;
+	background: #FFEB3B;
+	font-size: 16px;
+	font-weight: 400;
+	color: #1A1A1A;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-webkit-transition: all 0.2s ease 0s;
+	-o-transition: all 0.2s ease 0s;
+}
 
 .section.skills .title {
 	height: 80px;
