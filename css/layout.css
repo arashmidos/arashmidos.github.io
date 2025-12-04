@@ -702,7 +702,6 @@ a:active {
 	-o-transition: all 0.2s ease 0s;
 }
 .category-set {
-	margin-bottom: 10;
 	padding: 1px 5px;
 	display: inline-block;
 	vertical-align: top;
@@ -718,6 +717,9 @@ a:active {
 	-moz-transition: all 0.2s ease 0s;
 	-webkit-transition: all 0.2s ease 0s;
 	-o-transition: all 0.2s ease 0s;
+}
+.category-row {
+  margin-bottom: 10px;
 }
 
 .section.skills .title {
