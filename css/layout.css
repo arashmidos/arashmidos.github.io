@@ -430,6 +430,19 @@ header .menu-btn span:after {
 	font-family: 'Roboto', helvetica;
 }
 
+.st-box .st-location {
+	margin: 12px 0 0 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #2D3436;
+	opacity: 0.75;
+	font-family: 'Roboto', helvetica;
+}
+
+.st-box .st-location .ion {
+	margin-right: 2px;
+}
+
 .st-box .st-email {
 	margin-top: 16px;
 	font-size: 24px;
@@ -455,6 +468,19 @@ header .menu-btn span:after {
 
 	.st-box .st-subtitle {
 		font-size: 24px;
+	}
+
+	.st-box .st-location {
+		font-size: 16px;
+	}
+
+	.st-box .st-location-sep {
+		display: none;
+	}
+
+	.st-box .st-location-remote {
+		display: block;
+		margin-top: 4px;
 	}
 
 	.st-box .st-email {
