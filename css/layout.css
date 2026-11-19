@@ -443,6 +443,17 @@ header .menu-btn span:after {
 	margin-right: 2px;
 }
 
+.st-box .st-email a,
+.st-box .st-phone a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.st-box .st-email a:hover,
+.st-box .st-phone a:hover {
+	text-decoration: underline;
+}
+
 .st-box .st-email {
 	margin-top: 16px;
 	font-size: 24px;
