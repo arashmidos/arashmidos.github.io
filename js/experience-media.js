@@ -1,6 +1,6 @@
 const mediaItems = {
     "ParsRoyal": [
-        { type: 'image', src: 'images/projects/parsroyal/pr_1.png' },
+        { type: 'image', src: 'images/projects/parsroyal/pr_1.jpg' },
         { type: 'image', src: 'images/projects/parsroyal/pr_2.jpeg' },
         { type: 'image', src: 'images/projects/parsroyal/pr_3.jpeg' },
         { type: 'image', src: 'images/projects/parsroyal/pr_4.jpeg' },
@@ -19,14 +19,14 @@ const mediaItems = {
         { type: 'video', src: 'files/ca_3_no_club_offers.mp4' },
     ],
     "Vude": [
-        { type: 'image', src: 'images/projects/tribes/vude/vude0.png' },
-        { type: 'image', src: 'images/projects/tribes/vude/vude1.png' },
-        { type: 'image', src: 'images/projects/tribes/vude/vude2.png' },
+        { type: 'image', src: 'images/projects/tribes/vude/vude0.jpg' },
+        { type: 'image', src: 'images/projects/tribes/vude/vude1.jpg' },
+        { type: 'image', src: 'images/projects/tribes/vude/vude2.jpg' },
         { type: 'video', src: 'images/projects/tribes/vude/feed.mp4' },
         { type: 'video', src: 'images/projects/tribes/vude/storebidsent.mp4' },
     ],
     "Bravo": [
-        { type: 'image', src: 'images/projects/bravo/bravo-all.png' },
+        { type: 'image', src: 'images/projects/bravo/bravo-all.jpg' },
         { type: 'image', src: 'images/projects/bravo/bravo0.webp' },
         { type: 'image', src: 'images/projects/bravo/bravo1.webp' },
         { type: 'image', src: 'images/projects/bravo/bravo2.webp' },

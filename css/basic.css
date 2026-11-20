@@ -526,6 +526,17 @@ a.btn .circle,
 	animation-delay: -1s;
 }
 
+/* Spinner pulse (moved from animate.css, which is no longer loaded) */
+@-webkit-keyframes sk-bounce {
+	0%, 100% { -webkit-transform: scale(0.0); }
+	50% { -webkit-transform: scale(1.0); }
+}
+
+@keyframes sk-bounce {
+	0%, 100% { transform: scale(0.0); }
+	50% { transform: scale(1.0); }
+}
+
 /* 8. Forms */
 input,
 textarea,

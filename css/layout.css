@@ -13,6 +13,14 @@
 	12. Popups
 */
 
+/* Semantic headings keep the look of the old div titles */
+h1.st-title,
+h2.title,
+h3.title {
+	line-height: inherit;
+	margin-bottom: 0;
+}
+
 /* 1. Background Image */
 .started-bg {
 	position: fixed;
