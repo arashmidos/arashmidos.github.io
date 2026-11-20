@@ -153,8 +153,4 @@ $(function () {
 		}).addClass("animate");
 	});
 
-	if ($('#home-section').length) {
-		google.maps.event.addDomListener(window, 'load', initMap);
-	}
-
 });

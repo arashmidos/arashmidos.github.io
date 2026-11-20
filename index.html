@@ -31,12 +31,37 @@
 	<meta name="keywords"
 		content="Lead Mobile Engineer, Mobile Team Lead, Senior Flutter Engineer, Flutter Developer, Flutter programmer, Android Developer, Senior Android Developer, Flutter, Dart, Kotlin, Java, Mobile App Development, Clean Architecture, MVVM, MVP, GitHub Actions, GitLab CI/CD, Design System, AI-Assisted Development, Agentic Engineering, AI Coding Agents, Claude Code, Cursor, OpenAI Codex, ChatGPT, Figma MCP, Figma Make, Android Development, Mobile Software Engineer">
 
+	<!-- Structured data for search engines -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Arash Nouri",
+		"jobTitle": "Lead Mobile Engineer",
+		"description": "Lead Mobile Engineer with 10+ years in Flutter, Android and iOS.",
+		"url": "https://arashmidos.github.io/",
+		"image": "https://arashmidos.github.io/images/arash_nouri_avatar.jpg",
+		"address": { "@type": "PostalAddress", "addressCountry": "TR" },
+		"worksFor": { "@type": "Organization", "name": "Ecashpay Asia" },
+		"alumniOf": { "@type": "CollegeOrUniversity", "name": "Baháʼí Institute for Higher Education (BIHE)" },
+		"knowsAbout": ["Flutter", "Dart", "Android", "iOS", "Kotlin", "Swift", "Mobile app architecture", "CI/CD", "Design systems", "AI-assisted development"],
+		"sameAs": [
+			"https://www.linkedin.com/in/ar4sh/",
+			"https://github.com/arashmidos",
+			"https://medium.com/@ar4sh",
+			"https://stackoverflow.com/users/4905986"
+		]
+	}
+	</script>
+
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Load Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&amp;display=swap"
 		rel="stylesheet">
 
 	<!-- CSS -->
@@ -44,9 +69,6 @@
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="css/ionicons.css" />
 	<link rel="stylesheet" href="css/owl.carousel.css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" />
-	<link rel="stylesheet" href="css/animate.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="https://arashmidos.github.io/images/favicons/favicon.png">
@@ -71,7 +93,7 @@
 
 		<!-- Started Background -->
 		<div class="started-bg">
-			<div class="slide" style="background-image: url(images/profile_header.png);"></div>
+			<div class="slide" style="background-image: url(images/profile_header.jpg);"></div>
 		</div>
 
 		<!-- Header -->
@@ -114,27 +136,27 @@
 			<!-- Started -->
 			<div class="section started">
 				<div class="st-box">
-					<div class="st-image"><img src="images/arash_nouri_avatar.jpg" alt="" /></div>
-					<div class="st-title"><strong>Arash Nouri</strong></div>
+					<div class="st-image"><img src="images/arash_nouri_avatar.jpg" alt="Arash Nouri" /></div>
+					<h1 class="st-title"><strong>Arash Nouri</strong></h1>
 					<div class="st-subtitle">Lead Mobile Engineer</div>
 					<div class="st-location"><i class="icon ion ion-ios-location-outline"></i> Based in Turkey (UTC+3)<span
 							class="st-location-sep"> · </span><span class="st-location-remote">Open to remote roles in any time zone</span></div>
 					<div class="st-soc">
 						<span class="email-btn btn_animated">
 							<span class="circle">
-								<img src="images/ic_email.svg" width="26" height="26" style="vertical-align: middle;" />
+								<img alt="Show email address" src="images/ic_email.svg" width="26" height="26" style="vertical-align: middle;" />
 							</span>
 						</span>
 						<span class="phone-btn btn_animated">
 							<span class="circle">
-								<img src="images/ic_phone.svg" width="24" height="24" style="vertical-align: middle;" />
+								<img alt="Show phone number" src="images/ic_phone.svg" width="24" height="24" style="vertical-align: middle;" />
 							</span>
 						</span>
 						<a title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/ar4sh/" class="btn_animated">
 							<span class="circle"><i class="icon ion ion-social-linkedin" font-size="34"></i></span>
 						</a>
 						<a title="Medium" target="_blank" rel="noopener" href="https://medium.com/@ar4sh" class="btn_animated">
-							<span class="circle"><img src="images/ic_medium.svg" width="36" height="36" /></span>
+							<span class="circle"><img alt="Medium" src="images/ic_medium.svg" width="36" height="36" /></span>
 						</a>
 						<a title="Github" target="_blank" rel="noopener" href="https://github.com/arashmidos" class="btn_animated">
 							<span class="circle"><i class="icon ion ion-social-github"></i></span>
@@ -142,7 +164,9 @@
 						<a title="Stack Overflow" target="_blank" rel="noopener" href="https://stackoverflow.com/users/4905986"
 							class="btn_animated">
 							<span class="circle">
-								<i class="fa-brands fa-stack-overflow" style="font-size:28px; color:white;"></i>
+								<svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"
+									style="vertical-align: middle;"><path
+										d="M15.725 0l-1.72 1.277 6.39 8.588 1.716-1.277L15.725 0zm-3.94 3.418l-1.369 1.644 8.225 6.85 1.369-1.644-8.225-6.85zm-3.15 4.465l-.905 1.94 9.702 4.517.904-1.94-9.701-4.517zm-1.85 4.86l-.44 2.093 10.473 2.201.44-2.092-10.473-2.203zM1.89 15.47V24h19.19v-8.53h-2.133v6.397H4.021v-6.396H1.89zm4.265 2.133v2.13h10.66v-2.13H6.154Z" /></svg>
 							</span>
 						</a>
 					</div>
@@ -199,16 +223,16 @@
 
 				<!-- Section Writing & Talks (ids and classes keep the old "featured" name) -->
 				<div class="section featured" id="featured-section">
-					<div class="title">Writing &amp; Talks</div>
+					<h2 class="title">Writing &amp; Talks</h2>
 					<div class="featured-carousel animated">
 						<div class="owl-carousel">
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img" src="images/articles/graphify_knowledge_graph.jpeg"
+									<img loading="lazy" class="header-img" src="images/articles/graphify_knowledge_graph.jpeg"
 										alt="Stop making AI rediscover your codebase" />
-									<div class="title">Giving My AI Coding Assistant a Map of the Codebase</div>
+									<h3 class="title">Giving My AI Coding Assistant a Map of the Codebase</h3>
 									<div class="source">
-										<img src="images/ic_linkedin_circle.svg">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
 										<span>LinkedIn</span>
 									</div>
 									<p>Every session, my AI coding assistant started the same way: lost. On a mobile app with about 1,000 files and 190,000 lines of code, it searched before every change. Graphify turned the codebase into a knowledge graph it queries instead, so sessions now start oriented.</p>
@@ -221,11 +245,11 @@
 
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img" src="images/articles/ai_orchestrator.jpeg"
+									<img loading="lazy" class="header-img" src="images/articles/ai_orchestrator.jpeg"
 										alt="When AI writes the code, be an orchestrator" />
-									<div class="title">AI Made Our Team Faster at Creating Duplicate Code</div>
+									<h3 class="title">AI Made Our Team Faster at Creating Duplicate Code</h3>
 									<div class="source">
-										<img src="images/ic_linkedin_circle.svg">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
 										<span>LinkedIn</span>
 									</div>
 									<p>I found the same text field written six ways in our Flutter app. Everyone on the team builds with AI, just not the same AI, and each agent invents its own widget. So instead of standardising the AI, I standardised what the AI reads.</p>
@@ -238,11 +262,11 @@
 
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img"
+									<img alt="Flutter app with an embedded VPN" loading="lazy" class="header-img"
 										src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*IGESvVi3UtXoj0vS.png" />
-									<div class="title">Flutter Embedded VPN</div>
+									<h3 class="title">Flutter Embedded VPN</h3>
 									<div class="source">
-										<img src="images/ic_medium_circle.svg">
+										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
 										<span>Medium</span>
 									</div>
 									<p>Discover how to embed a VPN into our mobile app to bypass censorship, utilizing Flutter & Outline SDK. While aimed at Flutter developers, native Android and iOS developers can also benefit, as we’ll seamlessly integrate native code using Flutter plugins.</p>
@@ -255,11 +279,11 @@
 
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img"
+									<img alt="macOS desktop widget built with Flutter" loading="lazy" class="header-img"
 										src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*BRxEcLi7mtryViGAd08VUA.png" />
-									<div class="title">How I built a macOS desktop widget with Flutter</div>
+									<h3 class="title">How I built a macOS desktop widget with Flutter</h3>
 									<div class="source">
-										<img src="images/ic_medium_circle.svg">
+										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
 										<span>Medium</span>
 									</div>
 									<p>I’ve always loved how Flutter lets us build beautiful apps across platforms, but I was curious, could it also power a native macOS widget? That curiosity turned into a weekend project.</p>
@@ -272,11 +296,11 @@
 
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img"
+									<img alt="Firebase Studio running a Flutter app in the browser" loading="lazy" class="header-img"
 										src="images/articles/firebase_studio.jpeg" />
-									<div class="title">Cloud IDE + AI + Emulators: A New Superpower for Flutter Developers</div>
+									<h3 class="title">Cloud IDE + AI + Emulators: A New Superpower for Flutter Developers</h3>
 									<div class="source">
-										<img src="images/ic_linkedin_circle.svg">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
 										<span>LinkedIn</span>
 									</div>
 									<p>As someone who lives in Android Studio most days, I didn’t expect Firebase Studio to feel this smooth in a browser. It looks like VS Code and still runs real Flutter apps connected to your backend.</p>
@@ -289,10 +313,10 @@
 
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img" src="images/articles/flutter_grpc_arash_nouri.jpeg" />
-									<div class="title">Introduction to gRPC and Protocol Buffers in Flutter</div>
+									<img alt="Poster for the gRPC and Protocol Buffers in Flutter talk" loading="lazy" class="header-img" src="images/articles/flutter_grpc_arash_nouri.jpeg" />
+									<h3 class="title">Introduction to gRPC and Protocol Buffers in Flutter</h3>
 									<div class="source">
-										<img src="images/ic_youtube.svg">
+										<img alt="" loading="lazy" src="images/ic_youtube.svg">
 										<span>Youtube</span>
 									</div>
 									<p>A deep-dive session exploring gRPC and Protocol Buffers (Protobuf) for Flutter developers, covering key differences from REST, message serialization, and a live demo building a client-server app with Dart and Flutter in Persian Flutter Community.</p>
@@ -305,11 +329,11 @@
 
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img"
+									<img alt="Logos of AI tools that turn prompts into Figma designs" loading="lazy" class="header-img"
 										src="images/articles/ui_ai.jpeg" />
-									<div class="title">Prompt-to-Figma: AI Tools Tested</div>
+									<h3 class="title">Prompt-to-Figma: AI Tools Tested</h3>
 									<div class="source">
-										<img src="images/ic_linkedin_circle.svg">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
 										<span>LinkedIn</span>
 									</div>
 									<p>I wanted to give my students some mobile UI designs for their 𝐅𝐥𝐮𝐭𝐭𝐞𝐫 assignments: simple forms, inputs, small flows.
@@ -323,10 +347,10 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 
 							<div class="item">
 								<div class="content-box">
-									<img class="header-img" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*FklL1YwTgyc66QR_noI4Yg.png" />
-									<div class="title">Knock Knock, did you update your targetSdk?</div>
+									<img alt="Google Play target API level warning" loading="lazy" class="header-img" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*FklL1YwTgyc66QR_noI4Yg.png" />
+									<h3 class="title">Knock Knock, did you update your targetSdk?</h3>
 									<div class="source">
-										<img src="images/ic_medium_circle.svg">
+										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
 										<span>Medium</span>
 									</div>
 									<p>Android developers often see a warning in Google Play Console about the target API level. To stay compliant, apps must target the latest Android version or one released within the past year, otherwise, updates may be rejected or even removed from the store.</p>
@@ -342,10 +366,10 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 
 				<!-- Section Experience -->
 				<div class="section experience" id="experience-section">
-					<div class="title">
+					<h2 class="title">
 						Experience
 						<span class="circle"><i class="icon ion ion-ios-briefcase"></i></span>
-					</div>
+					</h2>
 					<div class="cd-timeline">
 						<!-- Ecashpay Asia -->
 						<div class="cd-timeline-block animated">
@@ -393,28 +417,28 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://play.google.com/store/apps/details?id=com.ecashpayasia', '_blank')">
 											<div class="link-card">
-												<img src="images/projects/ecashpay/ecashpay_logo.png" alt="EcashPay logo">
+												<img loading="lazy" src="images/projects/ecashpay/ecashpay_logo.png" alt="EcashPay logo">
 												<p>EcashPay on Google Play</p>
 											</div>
 										</div>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://apps.apple.com/ph/app/ecashpay/id6449353144', '_blank')">
 											<div class="link-card">
-												<img src="images/projects/ecashpay/ecashpay_logo.png" alt="EcashPay logo">
+												<img loading="lazy" src="images/projects/ecashpay/ecashpay_logo.png" alt="EcashPay logo">
 												<p>EcashPay on App Store</p>
 											</div>
 										</div>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://play.google.com/store/apps/details?id=com.globalpinoytravel.app', '_blank')">
 											<div class="link-card">
-												<img src="images/projects/ecashpay/gptt_logo.png" alt="Global Pinoy Travel &amp; Tours logo">
+												<img loading="lazy" src="images/projects/ecashpay/gptt_logo.png" alt="Global Pinoy Travel &amp; Tours logo">
 												<p>Global Pinoy Travel &amp; Tours on Google Play</p>
 											</div>
 										</div>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://apps.apple.com/ph/app/global-pinoy-travel-tours/id6736570720', '_blank')">
 											<div class="link-card">
-												<img src="images/projects/ecashpay/gptt_logo.png" alt="Global Pinoy Travel &amp; Tours logo">
+												<img loading="lazy" src="images/projects/ecashpay/gptt_logo.png" alt="Global Pinoy Travel &amp; Tours logo">
 												<p>Global Pinoy Travel &amp; Tours on App Store</p>
 											</div>
 										</div>
@@ -460,7 +484,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://vude.com/', '_blank')">
 											<div class="link-card">
-												<img style="background-color: #ffffff; object-fit:scale-down ;padding-left: 8px;padding-right: 8px;"
+												<img alt="Vude logo" loading="lazy" style="background-color: #ffffff; object-fit:scale-down ;padding-left: 8px;padding-right: 8px;"
 													src="images/projects/tribes/vude_logo.png">
 												<p>Vude BETA app</p>
 											</div>
@@ -468,24 +492,24 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 									</div>
 									<div class="preview-grid" id="mediaGallery-vude">
 										<div class="preview-item" onclick="openModal('Vude', 0)">
-											<img src="images/projects/tribes/vude/vude0.png">
+											<img alt="Vude app screenshot 1" loading="lazy" src="images/projects/tribes/vude/vude0.jpg">
 										</div>
 										<div class="preview-item" onclick="openModal('Vude', 1)">
-											<img src="images/projects/tribes/vude/vude1.png">
+											<img alt="Vude app screenshot 2" loading="lazy" src="images/projects/tribes/vude/vude1.jpg">
 										</div>
 										<div class="preview-item" onclick="openModal('Vude', 2)">
-											<img src="images/projects/tribes/vude/vude2.png">
+											<img alt="Vude app screenshot 3" loading="lazy" src="images/projects/tribes/vude/vude2.jpg">
 										</div>
 										<div class="preview-item" onclick="openModal('Vude', 3)">
 											<div class="preview-wrapper">
-												<img src="images/projects/tribes/vude/vude3.png">
-												<div class="icon-overlay"><img src="images/ic_play.svg"></div>
+												<img alt="Vude app video preview 1" loading="lazy" src="images/projects/tribes/vude/vude3.jpg">
+												<div class="icon-overlay"><img alt="" loading="lazy" src="images/ic_play.svg"></div>
 											</div>
 										</div>
 										<div class="preview-item" onclick="openModal('Vude', 4)">
 											<div class="preview-wrapper">
-												<img src="images/projects/tribes/vude/vude4.png">
-												<div class="icon-overlay"><img src="images/ic_play.svg"></div>
+												<img alt="Vude app video preview 2" loading="lazy" src="images/projects/tribes/vude/vude4.jpg">
+												<div class="icon-overlay"><img alt="" loading="lazy" src="images/ic_play.svg"></div>
 											</div>
 										</div>
 									</div>
@@ -524,33 +548,33 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://play.google.com/store/apps/details?id=com.balatarin.android.app', '_blank')">
 											<div class="link-card">
-												<img src="images/projects/balatarin/balatarin.webp">
+												<img alt="Balatarin logo" loading="lazy" src="images/projects/balatarin/balatarin.webp">
 												<p>Balatarin on Google Play</p>
 											</div>
 										</div>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://apps.apple.com/us/app/balatarin/id1613792005', '_blank')">
 											<div class="link-card">
-												<img src="images/projects/balatarin/balatarin.webp">
+												<img alt="Balatarin logo" loading="lazy" src="images/projects/balatarin/balatarin.webp">
 												<p>Balatarin on App Store</p>
 											</div>
 										</div>
 									</div>
 									<div class="preview-grid" id="mediaGallery-bala">
 										<div class="preview-item" onclick="openModal('Bala', 0)">
-											<img src="images/projects/balatarin/bala0.webp">
+											<img alt="Balatarin app screenshot 1" loading="lazy" src="images/projects/balatarin/bala0.webp">
 										</div>
 										<div class="preview-item" onclick="openModal('Bala', 1)">
-											<img src="images/projects/balatarin/bala1.webp">
+											<img alt="Balatarin app screenshot 2" loading="lazy" src="images/projects/balatarin/bala1.webp">
 										</div>
 										<div class="preview-item" onclick="openModal('Bala', 2)">
-											<img src="images/projects/balatarin/bala2.webp">
+											<img alt="Balatarin app screenshot 3" loading="lazy" src="images/projects/balatarin/bala2.webp">
 										</div>
 										<div class="preview-item" onclick="openModal('Bala', 3)">
-											<img src="images/projects/balatarin/bala3.webp">
+											<img alt="Balatarin app screenshot 4" loading="lazy" src="images/projects/balatarin/bala3.webp">
 										</div>
 										<div class="preview-item" onclick="openModal('Bala', 4)">
-											<img src="images/projects/balatarin/bala4.webp">
+											<img alt="Balatarin app screenshot 5" loading="lazy" src="images/projects/balatarin/bala4.webp">
 										</div>
 										
 									</div>
@@ -589,16 +613,16 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 									</ul>
 									<div class="preview-grid" id="mediaGallery-parsroyal">
 										<div class="preview-item" onclick="openModal('ParsRoyal', 0)">
-											<img src="images/projects/parsroyal/pr_1.png">
+											<img alt="Solution Tablet app screenshot 1" loading="lazy" src="images/projects/parsroyal/pr_1.jpg">
 										</div>
 										<div class="preview-item" onclick="openModal('ParsRoyal', 1)">
-											<img src="images/projects/parsroyal/pr_2.jpeg">
+											<img alt="Solution Tablet app screenshot 2" loading="lazy" src="images/projects/parsroyal/pr_2.jpeg">
 										</div>
 										<div class="preview-item" onclick="openModal('ParsRoyal', 2)">
-											<img src="images/projects/parsroyal/pr_3.jpeg">
+											<img alt="Solution Tablet app screenshot 3" loading="lazy" src="images/projects/parsroyal/pr_3.jpeg">
 										</div>
 										<div class="preview-item" onclick="openModal('ParsRoyal', 3)">
-											<img src="images/projects/parsroyal/pr_4.jpeg">
+											<img alt="Solution Tablet app screenshot 4" loading="lazy" src="images/projects/parsroyal/pr_4.jpeg">
 										</div>
 										<div class="preview-item more-media" onclick="openModal('ParsRoyal', 4)">
 											+5
@@ -642,7 +666,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<div class="preview-item link-preview"
 											onclick="window.open('https://www.autologicasystems.com/', '_blank')">
 											<div class="link-card">
-												<img style="background-color: #ffffff; object-fit:scale-down ;padding-left: 8px;padding-right: 8px;"
+												<img alt="Autologica logo" loading="lazy" style="background-color: #ffffff; object-fit:scale-down ;padding-left: 8px;padding-right: 8px;"
 													src="images/projects/autologica/al_logo_small.png">
 												<p>Autologica Website</p>
 											</div>
@@ -680,23 +704,23 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 				<div id="previewModal" class="modal" onclick="closeModal()">
 					<div class="modal-content">
 						<button class="modal-nav-btn next" onclick="navigateMedia(1); event.stopPropagation();">
-							<img src="images/ic_arrow.svg" />
+							<img alt="Next" src="images/ic_arrow.svg" />
 						</button>
 						<div id="modalBody"></div>
 						<button class="modal-nav-btn previous" onclick="navigateMedia(-1); event.stopPropagation();">
-							<img src="images/ic_arrow.svg" />
+							<img alt="Previous" src="images/ic_arrow.svg" />
 						</button>
 					</div>
 				</div>
 
 				<!-- Section Skills -->
 				<div class="section skills" id="skills-section">
-					<div class="title">Skills</div>
+					<h2 class="title">Skills</h2>
 					<div class="row">
 						<div class="col col-m-12 col-t-6 col-d-6">
 							<div class="content-box animated">
 								<div class="i_title">
-									<div class="icon"><img src="images/ic_eng.svg" width="32" height="32" /></image>
+									<div class="icon"><img alt="" loading="lazy" src="images/ic_eng.svg" width="32" height="32" />
 									</div>
 									<div class="name">Technical Skills</div>
 								</div>
@@ -772,7 +796,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 						<div class="col col-m-12 col-t-6 col-d-6">
 							<div class="content-box animated">
 								<div class="i_title">
-									<div class="icon"><img src="images/ic_hub.svg" width="32" height="32" /></image>
+									<div class="icon"><img alt="" loading="lazy" src="images/ic_hub.svg" width="32" height="32" />
 									</div>
 									<div class="name">Core Competencies</div>
 								</div>
@@ -794,10 +818,10 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 				</div>
 				<!-- Section Education -->
 				<div class="section education" id="education-section">
-					<div class="title">
+					<h2 class="title">
 						Education
 						<span class="circle"><i class="icon ion ion-university"></i></span>
-					</div>
+					</h2>
 					<div class="cd-timeline">
 						<div class="cd-timeline-block animated">
 							<div class="cd-timeline-point">
@@ -836,13 +860,13 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 
 				<!-- Section Recommendations -->
 				<div class="section recommendations" id="recommendations-section">
-					<div class="title">Recommendations</div>
+					<h2 class="title">Recommendations</h2>
 					<div class="reviews-carousel animated">
 						<div class="owl-carousel">
 							<div class="item">
 								<div class="content-box">
 									<div class="reviews-item">
-										<div class="image"><img src="images/avatars/shakib_habibi.png" /></div>
+										<div class="image"><img alt="Shakib Habibi" loading="lazy" src="images/avatars/shakib_habibi.png" /></div>
 										<div class="name">— Shakib Habibi, Senior Mobile Engineer @ Eat App</div>
 										<p>I contacted him as a student and colleague. We have many projects in common. He is so passionate, committed and
 											talented. He taught me to don't fear to be in hard situations, face them, and find the best solution for them. He
@@ -861,7 +885,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 							<div class="item">
 								<div class="content-box">
 									<div class="reviews-item">
-										<div class="image"><img src="images/avatars/naeim_lotfali.png" /></div>
+										<div class="image"><img alt="Naeim Lotfali" loading="lazy" src="images/avatars/naeim_lotfali.png" /></div>
 										<div class="name">— Naeim Lotfali, Senior Mobile Application Developer</div>
 										<p>It is my pleasure to recommend Arash Nouri, with whom I had the privilege of working closely for four years. Arash is
 											an exceptional professional with a wealth of experience and expertise in Android and Flutter development.
@@ -882,7 +906,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 							<div class="item">
 								<div class="content-box">
 									<div class="reviews-item">
-										<div class="image"><img src="images/avatars/sahba_changizi.png" /></div>
+										<div class="image"><img alt="Sahba Changizi" loading="lazy" src="images/avatars/sahba_changizi.png" /></div>
 										<div class="name">— Sahba Changizi, Full Stack Engineer</div>
 										<p>Arash worked with me in a team as an expert Android developer. His responsibilities included requirements gathering,
 											analysis, and develop complex Android applications. During the working experience, Arash proved himself to be a
@@ -900,7 +924,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 							<div class="item">
 								<div class="content-box">
 									<div class="reviews-item">
-										<div class="image"><img src="images/avatars/atousa.png" /></div>
+										<div class="image"><img alt="Atousa Mirhosseini" loading="lazy" src="images/avatars/atousa.png" /></div>
 										<div class="name">— Atousa Mirhosseini, Senior Java Developer</div>
 										<p>Arash epitomizes professionalism and expertise as a developer. Over our 18-year acquaintance, I've observed his
 											journey from novice programmer to a mentor, adept at imparting his knowledge even at the first years of his
@@ -921,11 +945,11 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 
 				<!-- Section Projects -->
 				<div class="section project" id="projects-section">
-					<div class="title">Projects</div>
+					<h2 class="title">Projects</h2>
 					
 					<div class="content-box animated">
 						<div class="i_title">
-							<div class="icon"><img src="images/projects/bravo/bravo-logo.webp" /></image>
+							<div class="icon"><img alt="Bravo logo" loading="lazy" src="images/projects/bravo/bravo-logo.webp" />
 							</div>
 							<div class="pj-name">Bravo</div>
 							<div class="pj-date">Mar 2024 - Oct 2024</div>
@@ -942,19 +966,19 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 					
 						<div class="preview-grid" id="mediaGallery-bravo">
 							<div class="preview-item" onclick="openModal('Bravo', 0)">
-								<img src="images/projects/bravo/bravo-thumbnail.png">
+								<img alt="Bravo app screenshots" loading="lazy" src="images/projects/bravo/bravo-thumbnail.png">
 							</div>
 							<div class="preview-item link-preview"
 								onclick="window.open('https://play.google.com/store/apps/details?id=com.hagenwebutvikling.bravo&hl=en', '_blank')">
 								<div class="link-card">
-									<img src="images/projects/bravo/bravo-logo.webp">
+									<img alt="Bravo logo" loading="lazy" src="images/projects/bravo/bravo-logo.webp">
 									<p>Bravo on Google Play</p>
 								</div>
 							</div>
 							<div class="preview-item link-preview"
 								onclick="window.open('https://apps.apple.com/no/app/bravo/id6466197675', '_blank')">
 								<div class="link-card">
-									<img src="images/projects/bravo/bravo-logo.webp">
+									<img alt="Bravo logo" loading="lazy" src="images/projects/bravo/bravo-logo.webp">
 									<p>Bravo on App Store</p>
 								</div>
 							</div>
@@ -963,7 +987,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 
 					<div class="content-box animated">
 						<div class="i_title">
-							<div class="icon"><img src="images/projects/myclinic/logo.png" /></image>
+							<div class="icon"><img alt="My Clinic logo" loading="lazy" src="images/projects/myclinic/logo.png" />
 							</div>
 							<div class="pj-name">My Clinic</div>
 							<div class="pj-date">Mar 2019 - Sep 2019</div>
@@ -982,7 +1006,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 						</ul>
 						<div class="preview-grid" id="mediaGallery-myclinic">
 							<div class="preview-item" onclick="openModal('MyClinic', 0)">
-								<img src="images/projects/myclinic/mc_1.png">
+								<img alt="My Clinic app screenshot" loading="lazy" src="images/projects/myclinic/mc_1.png">
 							</div>
 						</div>
 					</div>
@@ -1002,14 +1026,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 	<!-- jQuery Scripts -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/magnific-popup.js"></script>
-	<script src="js/masonry.pkgd.js"></script>
-	<script src="js/imagesloaded.pkgd.js"></script>
-	<script src="js/masonry-filter.js"></script>
 	<script src="js/scrollreveal.js"></script>
-	<script src="js/jquery.mb.YTPlayer.js"></script>
-	<script src="js/particles.js"></script>
 
 	<!-- Main Scripts -->
 	<script src="js/main.js"></script>
