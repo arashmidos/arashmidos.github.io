@@ -107,23 +107,28 @@
 						<a class="btn_animated" href="#about-section"><span class="circle">About</span></a>
 					</li>
 					<li>
-						<a class="btn_animated" href="#featured-section"><span class="circle">Writing &amp; Talks</span></a>
+						<a class="btn_animated" href="#experience-section"><span class="circle">Experience</span></a>
 					</li>
 					<li>
-						<a class="btn_animated" href="#experience-section"><span class="circle">Experience</span></a>
+						<a class="btn_animated" href="#featured-section"><span class="circle">Writing &amp; Talks</span></a>
 					</li>
 					<li>
 						<a class="btn_animated" href="#skills-section"><span class="circle">Skills</span></a>
 					</li>
 					<li>
+						<a class="btn_animated" href="#teaching-section"><span class="circle">Teaching</span></a>
+					</li>
+					<li>
 						<a class="btn_animated" href="#education-section"><span class="circle">Education</span></a>
 					</li>
 					<li>
-						<a class="btn_animated" href="#recommendations-section"><span
-								class="circle">Recommendations</span></a>
+						<a class="btn_animated" href="#recommendations-section"><span class="circle">Recommendations</span></a>
 					</li>
 					<li>
 						<a class="btn_animated" href="#projects-section"><span class="circle">Projects</span></a>
+					</li>
+					<li>
+						<a class="btn_animated" href="#contact-section"><span class="circle">Contact</span></a>
 					</li>
 				</ul>
 				<a href="#" class="menu-btn"><span></span></a>
@@ -138,9 +143,10 @@
 				<div class="st-box">
 					<div class="st-image"><img src="images/arash_nouri_avatar.jpg" alt="Arash Nouri" /></div>
 					<h1 class="st-title"><strong>Arash Nouri</strong></h1>
-					<div class="st-subtitle">Lead Mobile Engineer</div>
+					<div class="st-subtitle">Lead Mobile Engineer · Flutter, Android &amp; iOS</div>
 					<div class="st-location"><i class="icon ion ion-ios-location-outline"></i> Based in Turkey (UTC+3)<span
 							class="st-location-sep"> · </span><span class="st-location-remote">Open to remote roles in any time zone</span></div>
+					<div class="st-intl">Worked remotely with teams in the UK, US, Norway and the Philippines</div>
 					<div class="st-soc">
 						<span class="email-btn btn_animated">
 							<span class="circle">
@@ -153,7 +159,7 @@
 							</span>
 						</span>
 						<a title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/ar4sh/" class="btn_animated">
-							<span class="circle"><i class="icon ion ion-social-linkedin" font-size="34"></i></span>
+							<span class="circle"><i class="icon ion ion-social-linkedin"></i></span>
 						</a>
 						<a title="Medium" target="_blank" rel="noopener" href="https://medium.com/@ar4sh" class="btn_animated">
 							<span class="circle"><img alt="Medium" src="images/ic_medium.svg" width="36" height="36" /></span>
@@ -182,13 +188,9 @@
 				<div class="section about" id="about-section">
 					<div class="content-box">
 						<div class="row">
-							<!-- <div class="col col-m-12 col-t-5 col-d-5">
-								<video class="intro-video" src="files/intro.mp4" poster="images/intro_thumbnail.png"
-									controls></video>
-							</div> -->
 							<div class="col col-m-12 col-t-5 col-d-5">
 								<div class="video-wrapper">
-									<video class="intro-video" src="files/intro.mp4" poster="images/intro_thumbnail.png" controls></video>
+									<video class="intro-video" src="files/intro.mp4" poster="images/intro_thumbnail.png" preload="none" controls></video>
 								</div>
 							</div>
 							<div class="col col-m-12 col-t-7 col-d-7">
@@ -212,152 +214,10 @@
 									<p>Let’s build something amazing together!</p>
 								</div>
 								<div class="bts">
-									<!-- TODO(Arash): replace with the updated resume PDF (Lead Mobile Engineer, Ecashpay Asia) once it is ready -->
+									<!-- TODO(Arash): replace with the updated resume PDF (Lead Mobile Engineer, Ecashpay Asia) once it is ready.
+									     Keep the date in the filename (e.g. Arash_Nouri_Lead_Mobile_Engineer_YYYY-MM-DD.pdf) and delete the old PDF from files/. -->
 									<a href="files/Arash_Nouri_Senior_Flutter_Engineer_2025-10-08.pdf" class="btn btn_animated"
 										target="_blank"><span class="circle">Download CV</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Section Writing & Talks (ids and classes keep the old "featured" name) -->
-				<div class="section featured" id="featured-section">
-					<h2 class="title">Writing &amp; Talks</h2>
-					<div class="featured-carousel animated">
-						<div class="owl-carousel">
-							<div class="item">
-								<div class="content-box">
-									<img loading="lazy" class="header-img" src="images/articles/graphify_knowledge_graph.jpeg"
-										alt="Stop making AI rediscover your codebase" />
-									<h3 class="title">Giving My AI Coding Assistant a Map of the Codebase</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
-										<span>LinkedIn</span>
-									</div>
-									<p>Every session, my AI coding assistant started the same way: lost. On a mobile app with about 1,000 files and 190,000 lines of code, it searched before every change. Graphify turned the codebase into a knowledge graph it queries instead, so sessions now start oriented.</p>
-									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7502381443931693056/"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Read more</span>
-									</a>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="content-box">
-									<img loading="lazy" class="header-img" src="images/articles/ai_orchestrator.jpeg"
-										alt="When AI writes the code, be an orchestrator" />
-									<h3 class="title">AI Made Our Team Faster at Creating Duplicate Code</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
-										<span>LinkedIn</span>
-									</div>
-									<p>I found the same text field written six ways in our Flutter app. Everyone on the team builds with AI, just not the same AI, and each agent invents its own widget. So instead of standardising the AI, I standardised what the AI reads.</p>
-									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7496997692259090432/"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Read more</span>
-									</a>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="content-box">
-									<img alt="Flutter app with an embedded VPN" loading="lazy" class="header-img"
-										src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*IGESvVi3UtXoj0vS.png" />
-									<h3 class="title">Flutter Embedded VPN</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
-										<span>Medium</span>
-									</div>
-									<p>Discover how to embed a VPN into our mobile app to bypass censorship, utilizing Flutter & Outline SDK. While aimed at Flutter developers, native Android and iOS developers can also benefit, as we’ll seamlessly integrate native code using Flutter plugins.</p>
-									<a href="https://medium.com/stackademic/flutter-embedded-vpn-c47144798995"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Read more</span>
-									</a>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="content-box">
-									<img alt="macOS desktop widget built with Flutter" loading="lazy" class="header-img"
-										src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*BRxEcLi7mtryViGAd08VUA.png" />
-									<h3 class="title">How I built a macOS desktop widget with Flutter</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
-										<span>Medium</span>
-									</div>
-									<p>I’ve always loved how Flutter lets us build beautiful apps across platforms, but I was curious, could it also power a native macOS widget? That curiosity turned into a weekend project.</p>
-									<a href="https://medium.com/stackademic/how-i-built-a-macos-desktop-widget-with-flutter-6805294f16f7"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Read more</span>
-									</a>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="content-box">
-									<img alt="Firebase Studio running a Flutter app in the browser" loading="lazy" class="header-img"
-										src="images/articles/firebase_studio.jpeg" />
-									<h3 class="title">Cloud IDE + AI + Emulators: A New Superpower for Flutter Developers</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
-										<span>LinkedIn</span>
-									</div>
-									<p>As someone who lives in Android Studio most days, I didn’t expect Firebase Studio to feel this smooth in a browser. It looks like VS Code and still runs real Flutter apps connected to your backend.</p>
-									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7402615373079937024/"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Read more</span>
-									</a>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="content-box">
-									<img alt="Poster for the gRPC and Protocol Buffers in Flutter talk" loading="lazy" class="header-img" src="images/articles/flutter_grpc_arash_nouri.jpeg" />
-									<h3 class="title">Introduction to gRPC and Protocol Buffers in Flutter</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_youtube.svg">
-										<span>Youtube</span>
-									</div>
-									<p>A deep-dive session exploring gRPC and Protocol Buffers (Protobuf) for Flutter developers, covering key differences from REST, message serialization, and a live demo building a client-server app with Dart and Flutter in Persian Flutter Community.</p>
-									<a href="https://www.youtube.com/watch?v=pHbLJSHtoCs"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Watch</span>
-									</a>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="content-box">
-									<img alt="Logos of AI tools that turn prompts into Figma designs" loading="lazy" class="header-img"
-										src="images/articles/ui_ai.jpeg" />
-									<h3 class="title">Prompt-to-Figma: AI Tools Tested</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
-										<span>LinkedIn</span>
-									</div>
-									<p>I wanted to give my students some mobile UI designs for their 𝐅𝐥𝐮𝐭𝐭𝐞𝐫 assignments: simple forms, inputs, small flows.
-But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
-									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7396222926535933952/"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Read more</span>
-									</a>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="content-box">
-									<img alt="Google Play target API level warning" loading="lazy" class="header-img" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*FklL1YwTgyc66QR_noI4Yg.png" />
-									<h3 class="title">Knock Knock, did you update your targetSdk?</h3>
-									<div class="source">
-										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
-										<span>Medium</span>
-									</div>
-									<p>Android developers often see a warning in Google Play Console about the target API level. To stay compliant, apps must target the latest Android version or one released within the past year, otherwise, updates may be rejected or even removed from the store.</p>
-									<a href="https://medium.com/@ar4sh/-3631ede7e831"
-										target="_blank" rel="noopener" class="btn btn_animated">
-										<span class="circle">Read more</span>
-									</a>
 								</div>
 							</div>
 						</div>
@@ -390,10 +250,10 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<span class="ex-location">Philippines, Remote</span>
 									</div>
 									<div class="ex-position">Lead Mobile Engineer</div>
-									<p><i>Lead mobile engineering at a Philippine fintech that ships two brands, <b>EcashPay</b> and
+									<p>Lead mobile engineering at a Philippine fintech that ships two brands, <b>EcashPay</b> and
 										<b>Global Pinoy Travel &amp; Tours</b>, on Android, iOS and web from one Flutter codebase. Lead 4
 										Flutter engineers and the design team while still building hands-on, working daily with backend,
-										DevOps, QA and product.</i></p>
+										DevOps, QA and product.</p>
 									<ul class="ex-ul">
 										<li>Cut merge-to-deployment time from days to <b>10-15 minutes</b> with a GitHub Actions CI/CD
 											pipeline that tests, builds and delivers to Google Play's internal track, TestFlight and the web
@@ -413,33 +273,31 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 											developer consoles: scope each release from Odoo tickets, approve what ships, and promote builds
 											from the internal track and TestFlight to production.</li>
 									</ul>
-									<div class="preview-grid" id="mediaGallery-ecashpay">
-										<div class="preview-item link-preview"
-											onclick="window.open('https://play.google.com/store/apps/details?id=com.ecashpayasia', '_blank')">
+									<div class="preview-grid">
+										<div class="preview-item link-preview store-card">
 											<div class="link-card">
 												<img loading="lazy" src="images/projects/ecashpay/ecashpay_logo.png" alt="EcashPay logo">
-												<p>EcashPay on Google Play</p>
+												<div class="store-card-text">
+													<span class="store-card-name">EcashPay</span>
+													<span class="store-card-links">
+														<a href="https://play.google.com/store/apps/details?id=com.ecashpayasia" target="_blank" rel="noopener">Google Play</a>
+														<span aria-hidden="true">·</span>
+														<a href="https://apps.apple.com/ph/app/ecashpay/id6449353144" target="_blank" rel="noopener">App Store</a>
+													</span>
+												</div>
 											</div>
 										</div>
-										<div class="preview-item link-preview"
-											onclick="window.open('https://apps.apple.com/ph/app/ecashpay/id6449353144', '_blank')">
-											<div class="link-card">
-												<img loading="lazy" src="images/projects/ecashpay/ecashpay_logo.png" alt="EcashPay logo">
-												<p>EcashPay on App Store</p>
-											</div>
-										</div>
-										<div class="preview-item link-preview"
-											onclick="window.open('https://play.google.com/store/apps/details?id=com.globalpinoytravel.app', '_blank')">
-											<div class="link-card">
-												<img loading="lazy" src="images/projects/ecashpay/gptt_logo.png" alt="Global Pinoy Travel &amp; Tours logo">
-												<p>Global Pinoy Travel &amp; Tours on Google Play</p>
-											</div>
-										</div>
-										<div class="preview-item link-preview"
-											onclick="window.open('https://apps.apple.com/ph/app/global-pinoy-travel-tours/id6736570720', '_blank')">
+										<div class="preview-item link-preview store-card">
 											<div class="link-card">
 												<img loading="lazy" src="images/projects/ecashpay/gptt_logo.png" alt="Global Pinoy Travel &amp; Tours logo">
-												<p>Global Pinoy Travel &amp; Tours on App Store</p>
+												<div class="store-card-text">
+													<span class="store-card-name">Global Pinoy Travel &amp; Tours</span>
+													<span class="store-card-links">
+														<a href="https://play.google.com/store/apps/details?id=com.globalpinoytravel.app" target="_blank" rel="noopener">Google Play</a>
+														<span aria-hidden="true">·</span>
+														<a href="https://apps.apple.com/ph/app/global-pinoy-travel-tours/id6736570720" target="_blank" rel="noopener">App Store</a>
+													</span>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -466,21 +324,18 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<span class="ex-location">Manchester, UK, Remote</span>
 									</div>
 									<div class="ex-position">Senior Flutter Developer</div>
-									<p>
-										Worked on a cutting-edge social media platform for video NFT trading via blockchain, taking over an incomplete
-										Flutter app and
-										bringing it to a production-ready state. Led system optimization efforts to deliver a scalable, user-friendly
-										platform.
-									</p>
+									<p>Took over an unfinished Flutter app for <b>Vude</b>, a social video platform for trading video NFTs,
+										and brought it to a production-ready public beta on Android and iOS.</p>
 									<ul class="ex-ul">
-										<li>Engineered advanced video and audio editing features by incorporating multiple SDKs.</li>
-										<li>Implemented a complete UI redesign based on Adobe XD, creating an engaging and intuitive interface.</li>
-										<li>Crafted native Android and iOS plugins in Kotlin and Swift to connect the video editor to Soundstripe.</li>
-										<li>Designed a dynamic chat system with robust messaging, media sharing, custom message types, and
-											interactive elements like stories, emojis, GIFs, and stickers.</li>
-										<li>Refactored and updated legacy code to enhance stability, scalability, and readiness before market launch.</li>
+										<li>Refactored the legacy codebase for stability and scale, turning an incomplete app into one ready for
+											market launch.</li>
+										<li>Built in-app video and audio editing by integrating several third-party SDKs.</li>
+										<li>Wrote native Android (Kotlin) and iOS (Swift) plugins to connect the video editor to Soundstripe's music
+											library.</li>
+										<li>Rebuilt the whole UI from a new Adobe XD design.</li>
+										<li>Built a chat system with media sharing, custom message types, stories, emojis, GIFs and stickers.</li>
 									</ul>
-									<div class="preview-grid" id="mediaGallery-vude">
+									<div class="preview-grid">
 										<div class="preview-item link-preview"
 											onclick="window.open('https://vude.com/', '_blank')">
 											<div class="link-card">
@@ -490,7 +345,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 											</div>
 										</div>
 									</div>
-									<div class="preview-grid" id="mediaGallery-vude">
+									<div class="preview-grid">
 										<div class="preview-item" onclick="openModal('Vude', 0)">
 											<img alt="Vude app screenshot 1" loading="lazy" src="images/projects/tribes/vude/vude0.jpg">
 										</div>
@@ -517,6 +372,54 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 							</div>
 						</div>
 
+						<!-- Freelance -->
+						<div class="cd-timeline-block animated">
+							<div class="cd-timeline-point">
+								<i class="icon ion ion-ios-checkmark-empty"></i>
+							</div>
+							<div class="cd-timeline-content">
+								<div class="content-box">
+									<div class="date">Mar 2024 - Oct 2024</div>
+									<div class="category-row">
+										<div class="category-set">Health &amp; Fitness</div>
+										<div class="category-set">Accessibility</div>
+										<div class="category-set">FinTech</div>
+									</div>
+									<div style="display: flex; gap: 5px;">
+										<span class="ex-name">Freelance</span>
+										<span class="ex-location"> • </span>
+										<span class="ex-location">Norway &amp; USA, Remote</span>
+									</div>
+									<div class="ex-position">Senior Flutter Developer</div>
+									<p>Built Flutter apps for clients in Norway and the USA.</p>
+									<ul class="ex-ul">
+										<li><b>Bravo</b> (Norway): a fitness app for people with intellectual disabilities, with native Android and
+											iOS step-counter plugins and gamification that encourages daily exercise.</li>
+										<li>A US client's app for monitoring and managing syndication accounts across several companies and
+											portfolios.</li>
+									</ul>
+									<div class="preview-grid">
+										<div class="preview-item link-preview store-card">
+											<div class="link-card">
+												<img alt="Bravo logo" loading="lazy" src="images/projects/bravo/bravo-logo.webp">
+												<div class="store-card-text">
+													<span class="store-card-name">Bravo</span>
+													<span class="store-card-links">
+														<a href="https://play.google.com/store/apps/details?id=com.hagenwebutvikling.bravo&amp;hl=en" target="_blank" rel="noopener">Google Play</a>
+														<span aria-hidden="true">·</span>
+														<a href="https://apps.apple.com/no/app/bravo/id6466197675" target="_blank" rel="noopener">App Store</a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="preview-item" onclick="openModal('Bravo', 0)">
+											<img alt="Bravo app screenshots" loading="lazy" src="images/projects/bravo/bravo-thumbnail.png">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<!-- Balatarin -->
 						<div class="cd-timeline-block animated">
 							<div class="cd-timeline-point">
@@ -536,31 +439,32 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<span class="ex-location">CA, United States, Remote</span>
 									</div>
 									<div class="ex-position">Senior Flutter Developer</div>
-									<p><i>Led a social news aggregation app development similar to Reddit, overseeing end-to-end creation from concept to launch, achieving <b>+100k downloads.</b></i></p>
+									<p>Led development of a Reddit-style social news app from concept to launch on Android and iOS, reaching
+										<b>100k+ downloads</b>.</p>
 									<ul class="ex-ul">
-										<li>Engineered real-time feeds and community features using Flutter and BLoC architecture.</li>
-										<li>Collaborated with the Jigsaw team from Google on the development of a new embedded VPN solution written in Go, integrating the SDK by developing native Android and iOS plugins</li>
-										<li>Designed gRPC-based infrastructure for seamless frontend-backend connectivity.</li>
-										<li>Set up CI/CD pipelines for automated testing (unit and widget tests), building, and app delivery.</li>
+										<li>Worked with <b>Jigsaw (Google)</b> on a new embedded VPN SDK written in Go, and integrated it into the
+											app through native Android and iOS plugins, so users could reach the app in censored regions.</li>
+										<li>Built real-time feeds and community features in Flutter with the BLoC architecture.</li>
+										<li>Designed the app's gRPC layer with the backend team, replacing REST between the app and the server.</li>
+										<li>Set up CI/CD pipelines that run unit and widget tests, build the app and deliver it to the stores.</li>
 									</ul>
 
-									<div class="preview-grid" id="mediaGallery-balatarin">
-										<div class="preview-item link-preview"
-											onclick="window.open('https://play.google.com/store/apps/details?id=com.balatarin.android.app', '_blank')">
+									<div class="preview-grid">
+										<div class="preview-item link-preview store-card">
 											<div class="link-card">
 												<img alt="Balatarin logo" loading="lazy" src="images/projects/balatarin/balatarin.webp">
-												<p>Balatarin on Google Play</p>
-											</div>
-										</div>
-										<div class="preview-item link-preview"
-											onclick="window.open('https://apps.apple.com/us/app/balatarin/id1613792005', '_blank')">
-											<div class="link-card">
-												<img alt="Balatarin logo" loading="lazy" src="images/projects/balatarin/balatarin.webp">
-												<p>Balatarin on App Store</p>
+												<div class="store-card-text">
+													<span class="store-card-name">Balatarin</span>
+													<span class="store-card-links">
+														<a href="https://play.google.com/store/apps/details?id=com.balatarin.android.app" target="_blank" rel="noopener">Google Play</a>
+														<span aria-hidden="true">·</span>
+														<a href="https://apps.apple.com/us/app/balatarin/id1613792005" target="_blank" rel="noopener">App Store</a>
+													</span>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="preview-grid" id="mediaGallery-bala">
+									<div class="preview-grid">
 										<div class="preview-item" onclick="openModal('Bala', 0)">
 											<img alt="Balatarin app screenshot 1" loading="lazy" src="images/projects/balatarin/bala0.webp">
 										</div>
@@ -599,19 +503,31 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<span class="ex-location"> • </span>
 										<span class="ex-location">Iran, Remote</span>
 									</div>
-									<div class="ex-position">Senior Software Engineer • Team Lead</div>
-									<p>Solution Tablet, owned by Pars Royal, was an enterprise app to streamline B2B
-										distribution operations across multiple roles, including sales, distribution,
-										and merchandising.</p>
+									<div class="ex-role">
+										<div class="ex-position">Project Lead Developer</div>
+										<div class="ex-role-date">Dec 2017 - Jan 2021 · promoted</div>
+									</div>
 									<ul class="ex-ul">
-										<li>Enabled offline functionality, ensuring uninterrupted usability in
-											low-connectivity environments.</li>
-										<li>Revamped the UI/UX design, ensuring a modern, intuitive interface that
-											enhanced usability and user satisfaction.</li>
-										<li>Developed analytics dashboards and reports using MpAndroidChart, providing
-											key business insights.</li>
+										<li>Led an agile team of 4-5 developers and designers, and owned the architecture of 10+ mobile apps in
+											native Android and Flutter, including their backend and UI.</li>
+										<li>Built a custom Intelligent Vehicle Routing system that improved distributor performance by
+											<b>35%</b>, and helped move the company towards building its own technology.</li>
+										<li>Built a shared geo service that answered map, navigation and vehicle routing (VRP) requests from the
+											company's other systems.</li>
 									</ul>
-									<div class="preview-grid" id="mediaGallery-parsroyal">
+									<div class="ex-role">
+										<div class="ex-position">Senior Android Developer</div>
+										<div class="ex-role-date">Apr 2016 - Dec 2017</div>
+									</div>
+									<ul class="ex-ul">
+										<li>Built <b>Solution Tablet</b> from scratch, a B2B distribution app for sales, delivery and
+											merchandising teams, adopted by large companies in the industry. It works offline in low-connectivity
+											areas and includes analytics dashboards.</li>
+										<li>Built a warehouse management and order delivery app for warehouse managers.</li>
+										<li>Redesigned the bus fleet management app for Persian Gulf Transportation Co. to improve its UX and
+											reduce technical debt.</li>
+									</ul>
+									<div class="preview-grid">
 										<div class="preview-item" onclick="openModal('ParsRoyal', 0)">
 											<img alt="Solution Tablet app screenshot 1" loading="lazy" src="images/projects/parsroyal/pr_1.jpg">
 										</div>
@@ -662,7 +578,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 										<li>Transitioned from Google Maps to OSM-based mapping, routing, search, and geocoding solutions, slashing
 											operational costs.</li>
 									</ul>
-									<div class="preview-grid" id="mediaGallery-vude">
+									<div class="preview-grid">
 										<div class="preview-item link-preview"
 											onclick="window.open('https://www.autologicasystems.com/', '_blank')">
 											<div class="link-card">
@@ -701,6 +617,157 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 						</div>
 					</div>
 				</div>
+				<!-- Section Writing & Talks (ids and classes keep the old "featured" name) -->
+				<div class="section featured" id="featured-section">
+					<h2 class="title">Writing &amp; Talks</h2>
+					<div class="featured-carousel animated">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="content-box">
+									<img loading="lazy" class="header-img" src="images/articles/graphify_knowledge_graph.jpeg"
+										alt="Stop making AI rediscover your codebase" />
+									<h3 class="title">Giving My AI Coding Assistant a Map of the Codebase</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
+										<span>LinkedIn</span>
+										<span class="source-date">· Sep 2026</span>
+									</div>
+									<p>Every session, my AI coding assistant started the same way: lost. On a mobile app with about 1,000 files and 190,000 lines of code, it searched before every change. Graphify turned the codebase into a knowledge graph it queries instead, so sessions now start oriented.</p>
+									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7502381443931693056/"
+										target="_blank" rel="noopener" class="btn btn_animated">
+										<span class="circle">Read more</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="content-box">
+									<img loading="lazy" class="header-img" src="images/articles/ai_orchestrator.jpeg"
+										alt="When AI writes the code, be an orchestrator" />
+									<h3 class="title">AI Made Our Team Faster at Creating Duplicate Code</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
+										<span>LinkedIn</span>
+										<span class="source-date">· Aug 2026</span>
+									</div>
+									<p>I found the same text field written six ways in our Flutter app. Everyone on the team builds with AI, just not the same AI, and each agent invents its own widget. So instead of standardising the AI, I standardised what the AI reads.</p>
+									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7496997692259090432/"
+										target="_blank" rel="noopener" class="btn btn_animated">
+										<span class="circle">Read more</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="content-box">
+									<img alt="Flutter app with an embedded VPN" loading="lazy" class="header-img"
+										src="images/articles/flutter_embedded_vpn.jpeg" />
+									<h3 class="title">Flutter Embedded VPN</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
+										<span>Medium</span>
+										<span class="source-date">· Apr 2024</span>
+									</div>
+									<p>Discover how to embed a VPN into our mobile app to bypass censorship, utilizing Flutter & Outline SDK. While aimed at Flutter developers, native Android and iOS developers can also benefit, as we’ll seamlessly integrate native code using Flutter plugins.</p>
+									<div class="card-actions">
+										<a href="https://medium.com/stackademic/flutter-embedded-vpn-c47144798995" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Read more</span></a>
+										<a href="https://github.com/arashmidos/embedded-sdk" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Code</span></a>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="content-box">
+									<img alt="macOS desktop widget built with Flutter" loading="lazy" class="header-img"
+										src="images/articles/flutter_macos_widget.jpeg" />
+									<h3 class="title">How I built a macOS desktop widget with Flutter</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
+										<span>Medium</span>
+										<span class="source-date">· Oct 2025</span>
+									</div>
+									<p>I’ve always loved how Flutter lets us build beautiful apps across platforms, but I was curious, could it also power a native macOS widget? That curiosity turned into a weekend project.</p>
+									<div class="card-actions">
+										<a href="https://medium.com/stackademic/how-i-built-a-macos-desktop-widget-with-flutter-6805294f16f7" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Read more</span></a>
+										<a href="https://github.com/arashmidos/Flutter-Macos-Widget" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Code</span></a>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="content-box">
+									<img alt="Firebase Studio running a Flutter app in the browser" loading="lazy" class="header-img"
+										src="images/articles/firebase_studio.jpeg" />
+									<h3 class="title">Cloud IDE + AI + Emulators: A New Superpower for Flutter Developers</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
+										<span>LinkedIn</span>
+										<span class="source-date">· Dec 2025</span>
+									</div>
+									<p>As someone who lives in Android Studio most days, I didn’t expect Firebase Studio to feel this smooth in a browser. It looks like VS Code and still runs real Flutter apps connected to your backend.</p>
+									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7402615373079937024/"
+										target="_blank" rel="noopener" class="btn btn_animated">
+										<span class="circle">Read more</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="content-box">
+									<img alt="Poster for the gRPC and Protocol Buffers in Flutter talk" loading="lazy" class="header-img" src="images/articles/flutter_grpc_arash_nouri.jpeg" />
+									<h3 class="title">Introduction to gRPC and Protocol Buffers in Flutter</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_youtube.svg">
+										<span>Youtube</span>
+										<span class="source-date">· Nov 2024</span>
+									</div>
+									<p>A deep-dive session exploring gRPC and Protocol Buffers (Protobuf) for Flutter developers, covering key differences from REST, message serialization, and a live demo building a client-server app with Dart and Flutter in Persian Flutter Community.</p>
+									<div class="card-actions">
+										<a href="https://www.youtube.com/watch?v=pHbLJSHtoCs" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Watch</span></a>
+										<a href="https://github.com/arashmidos/grpc-demo" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Code</span></a>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="content-box">
+									<img alt="Logos of AI tools that turn prompts into Figma designs" loading="lazy" class="header-img"
+										src="images/articles/ui_ai.jpeg" />
+									<h3 class="title">Prompt-to-Figma: AI Tools Tested</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_linkedin_circle.svg">
+										<span>LinkedIn</span>
+										<span class="source-date">· Nov 2025</span>
+									</div>
+									<p>I wanted to give my students some mobile UI designs for their 𝐅𝐥𝐮𝐭𝐭𝐞𝐫 assignments: simple forms, inputs, small flows.
+But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
+									<a href="https://www.linkedin.com/feed/update/urn:li:activity:7396222926535933952/"
+										target="_blank" rel="noopener" class="btn btn_animated">
+										<span class="circle">Read more</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="content-box">
+									<img alt="Google Play target API level warning" loading="lazy" class="header-img" src="images/articles/android_target_sdk.jpeg" />
+									<h3 class="title">Knock Knock, did you update your targetSdk?</h3>
+									<div class="source">
+										<img alt="" loading="lazy" src="images/ic_medium_circle.svg">
+										<span>Medium</span>
+										<span class="source-date">· Aug 2025</span>
+									</div>
+									<p>Android developers often see a warning in Google Play Console about the target API level. To stay compliant, apps must target the latest Android version or one released within the past year, otherwise, updates may be rejected or even removed from the store.</p>
+									<a href="https://medium.com/@ar4sh/-3631ede7e831"
+										target="_blank" rel="noopener" class="btn btn_animated">
+										<span class="circle">Read more</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div id="previewModal" class="modal" onclick="closeModal()">
 					<div class="modal-content">
 						<button class="modal-nav-btn next" onclick="navigateMedia(1); event.stopPropagation();">
@@ -728,14 +795,14 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 								<div class="skill-set">Kotlin</div>
 								<div class="skill-set">Java</div>
 								<div class="skill-set">Swift</div>
-								</br>
-								</br>
+								<br>
+								<br>
 								<div class="skill-set">Clean Architecture</div>
 								<div class="skill-set">MVP</div>
 								<div class="skill-set">MVVM</div>
 								
-								</br>
-								</br>
+								<br>
+								<br>
 								<div class="skill-set">BLoC</div>
 								<div class="skill-set">Cubit</div>
 								<div class="skill-set">GetX</div>
@@ -743,8 +810,8 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 								<div class="skill-set">Riverpod</div>
 
 								<!-- Tools and Platforms: Android Studio, VS Code, Cursor, Jira, Agile methodologies, Figma, FlutterFlow -->
-								</br>
-								</br>
+								<br>
+								<br>
 							
 								<div class="skill-set">RESTful APIs</div>
 								<div class="skill-set">gRPC</div>
@@ -758,18 +825,18 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 								<div class="skill-set">Push Notification</div>
 								<div class="skill-set">Open Street Map</div>
 							
-								</br>
-								</br>
+								<br>
+								<br>
 								<div class="skill-set">CI/CD (GitHub Actions, GitLab CI)</div>
 								<div class="skill-set">Google Play & App Store Deployment</div>
 								<div class="skill-set">Vercel</div>
 								<div class="skill-set">Release Management</div>
-								</br>
-								</br>
+								<br>
+								<br>
 								<div class="skill-set">Design Systems</div>
 								<div class="skill-set">Figma</div>
-								</br>
-								</br>
+								<br>
+								<br>
 								<div class="skill-set">AI-Assisted Development</div>
 								<div class="skill-set">Agentic Engineering</div>
 								<div class="skill-set">Claude Code</div>
@@ -779,15 +846,15 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 								<div class="skill-set">Figma Make</div>
 								<div class="skill-set">Figma MCP</div>
 								<div class="skill-set">Custom Agent Rules &amp; Skills</div>
-								</br>
-								</br>
+								<br>
+								<br>
 								<div class="skill-set">Git</div>
 								<div class="skill-set">GitHub</div>
 								<div class="skill-set">GitLab</div>
 								<div class="skill-set">Bitbucket</div>
 
-								</br>
-								</br>
+								<br>
+								<br>
 								<div class="skill-set">macOS (Flutter Development, Xcode)</div>
 								<div class="skill-set">Windows</div>
 								<div class="skill-set">Linux</div>
@@ -816,11 +883,11 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 						</div>
 					</div>
 				</div>
-				<!-- Section Education -->
-				<div class="section education" id="education-section">
+				<!-- Section Teaching & Mentoring -->
+				<div class="section education teaching" id="teaching-section">
 					<h2 class="title">
-						Education
-						<span class="circle"><i class="icon ion ion-university"></i></span>
+						Teaching &amp; Mentoring
+						<span class="circle"><i class="icon ion ion-ios-people"></i></span>
 					</h2>
 					<div class="cd-timeline">
 						<div class="cd-timeline-block animated">
@@ -835,12 +902,57 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 									</div>
 									<div class="ex-position">Baháʼí Institute for Higher Education (BIHE)</div>
 									<ul class="ex-ul">
-										<li>I volunteer as a remote instructor at BIHE, teaching programming courses through Moodle LMS. Over the years, I’ve taught subjects such as "Fundamentals of Programming with Java", "Advanced Programming", and "Mobile Programming", continuing this engagement with occasional breaks.</li>
+										<li>Teach university programming courses remotely through Moodle LMS, including Fundamentals of Programming with Java, Advanced Programming and Mobile Programming.</li>
+										<li>Prepare the Flutter assignments, including the mobile UI designs students build from.</li>
 									</ul>
 								</div>
 							</div>
 						</div>
+						<div class="cd-timeline-block animated">
+							<div class="cd-timeline-point">
+								<i class="icon ion ion-ios-checkmark-empty"></i>
+							</div>
+							<div class="cd-timeline-content">
+								<div class="content-box">
+									<div class="date">Nov 2024</div>
+									<div style="display: flex; gap: 5px;">
+										<span class="ex-name">Guest Speaker</span>
+									</div>
+									<div class="ex-position">Persian Flutter Community</div>
+									<ul class="ex-ul">
+										<li>Gave an online session, <a href="https://www.youtube.com/watch?v=pHbLJSHtoCs" target="_blank" rel="noopener">Introduction to gRPC and Protocol Buffers in Flutter</a>, with a live demo that is <a href="https://github.com/arashmidos/grpc-demo" target="_blank" rel="noopener">open source on GitHub</a>.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="cd-timeline-block animated">
+							<div class="cd-timeline-point">
+								<i class="icon ion ion-ios-checkmark-empty"></i>
+							</div>
+							<div class="cd-timeline-content">
+								<div class="content-box">
+									<div class="date">2007 - 2010</div>
+									<div style="display: flex; gap: 5px;">
+										<span class="ex-name">Java Corporate Trainer</span>
+									</div>
+									<div class="ex-position">Fan Pardaz and Faratar Az Danesh Higher Education Institutes</div>
+									<ul class="ex-ul">
+										<li>Trained developer teams at large national energy, banking and public-sector organisations to move their legacy systems to Java.</li>
+										<li>Taught Java fundamentals and advanced Java, JDBC, JSP and Servlets, RMI, socket programming, XML and Swing.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
+				<!-- Section Education -->
+				<div class="section education" id="education-section">
+					<h2 class="title">
+						Education
+						<span class="circle"><i class="icon ion ion-university"></i></span>
+					</h2>
+					<div class="cd-timeline">
 						<div class="cd-timeline-block animated">
 							<div class="cd-timeline-point">
 								<i class="icon ion ion-ios-checkmark-empty"></i>
@@ -868,13 +980,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 									<div class="reviews-item">
 										<div class="image"><img alt="Shakib Habibi" loading="lazy" src="images/avatars/shakib_habibi.png" /></div>
 										<div class="name">— Shakib Habibi, Senior Mobile Engineer @ Eat App</div>
-										<p>I contacted him as a student and colleague. We have many projects in common. He is so passionate, committed and
-											talented. He taught me to don't fear to be in hard situations, face them, and find the best solution for them. He
-											always looking for new challenges. He is dedicated to deadlines and help others to be dedicated as well. He is
-											always available for consultation on programming problems. He has very good and deep knowledge in java and android.
-											I enjoy working with him and always see him as a professional developer. One of his attitude that I like is that he
-											always tries to improve his soft skills as well. I hope we can continue our cooperation because it's full of
-											learning and joy.</p>
+										<p>“He is so passionate, committed and talented. … He is always available for consultation on programming problems. … I enjoy working with him and always see him as a professional developer.”</p>
 										</div>
 									<a href="https://www.linkedin.com/in/ar4sh/details/recommendations/?detailScreenTabIndex=0"
 										target="_blank" rel="noopener" class="btn btn_animated">
@@ -887,14 +993,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 									<div class="reviews-item">
 										<div class="image"><img alt="Naeim Lotfali" loading="lazy" src="images/avatars/naeim_lotfali.png" /></div>
 										<div class="name">— Naeim Lotfali, Senior Mobile Application Developer</div>
-										<p>It is my pleasure to recommend Arash Nouri, with whom I had the privilege of working closely for four years. Arash is
-											an exceptional professional with a wealth of experience and expertise in Android and Flutter development.
-											Throughout our collaboration, Arash consistently impressed me with his deep knowledge of business solutions and his
-											unwavering dedication to excellence. His strong work ethic, coupled with his enthusiasm for his work, made him a
-											valuable asset to our team.
-											I wholeheartedly endorse Arash Nouri as a Flutter developer. His professionalism, expertise, and dedication make him
-											an invaluable asset to any team. It has been a pleasure working alongside Arash.
-										</p>
+										<p>“… I had the privilege of working closely [with Arash] for four years. Arash is an exceptional professional with a wealth of experience and expertise in Android and Flutter development. … Arash consistently impressed me with his deep knowledge of business solutions and his unwavering dedication to excellence.”</p>
 										</div>
 									<a href="https://www.linkedin.com/in/ar4sh/details/recommendations/?detailScreenTabIndex=0"
 										target="_blank" rel="noopener" class="btn btn_animated">
@@ -908,11 +1007,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 									<div class="reviews-item">
 										<div class="image"><img alt="Sahba Changizi" loading="lazy" src="images/avatars/sahba_changizi.png" /></div>
 										<div class="name">— Sahba Changizi, Full Stack Engineer</div>
-										<p>Arash worked with me in a team as an expert Android developer. His responsibilities included requirements gathering,
-											analysis, and develop complex Android applications. During the working experience, Arash proved himself to be a
-											dependable developer and a hard worker with solid problem solving and technical skills. I was always impressed by
-											Arash's ability to complete the work assigned to him on time. Arash takes his work very seriously.
-										</p>
+										<p>“Arash worked with me in a team as an expert Android developer. … Arash proved himself to be a dependable developer and a hard worker with solid problem solving and technical skills.”</p>
 										</div>
 									<a href="https://www.linkedin.com/in/ar4sh/details/recommendations/?detailScreenTabIndex=0"
 										target="_blank" rel="noopener" class="btn btn_animated">
@@ -926,11 +1021,7 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 									<div class="reviews-item">
 										<div class="image"><img alt="Atousa Mirhosseini" loading="lazy" src="images/avatars/atousa.png" /></div>
 										<div class="name">— Atousa Mirhosseini, Senior Java Developer</div>
-										<p>Arash epitomizes professionalism and expertise as a developer. Over our 18-year acquaintance, I've observed his
-											journey from novice programmer to a mentor, adept at imparting his knowledge even at the first years of his
-											experience. His profound technical prowess and exceptional interpersonal skills undeniably elevate the quality of
-											any company's product.
-										</p>
+										<p>“Over our 18-year acquaintance, I've observed his journey from novice programmer to a mentor, adept at imparting his knowledge even at the first years of his experience. His profound technical prowess and exceptional interpersonal skills undeniably elevate the quality of any company's product.”</p>
 										</div>
 									<a href="https://www.linkedin.com/in/ar4sh/details/recommendations/?detailScreenTabIndex=0"
 										target="_blank" rel="noopener" class="btn btn_animated">
@@ -945,43 +1036,47 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 
 				<!-- Section Projects -->
 				<div class="section project" id="projects-section">
-					<h2 class="title">Projects</h2>
-					
+					<h2 class="title">Open Source &amp; Projects</h2>
+
 					<div class="content-box animated">
 						<div class="i_title">
-							<div class="icon"><img alt="Bravo logo" loading="lazy" src="images/projects/bravo/bravo-logo.webp" />
-							</div>
-							<div class="pj-name">Bravo</div>
-							<div class="pj-date">Mar 2024 - Oct 2024</div>
-							<div class="category-row">
-										<div class="category-set">Health & Fitness</div>
-										<div class="category-set">Wellness</div>
-										<div class="category-set">Accessibility</div>
-									</div>
+							<div class="icon icon-github"><img alt="" loading="lazy" src="images/ic_github_circle.svg" /></div>
+							<div class="pj-name">grpc-demo</div>
+							<div class="pj-date">Nov 2024 · Dart, Flutter, gRPC</div>
 						</div>
-						<p>Built a tailored Flutter application for a Norwegian client, supporting individuals with intellectual
-							disabilities through native Android/iOS step counter plugins, and incorporated gamification to promote exercise.
-						</p>
-					
-					
-						<div class="preview-grid" id="mediaGallery-bravo">
-							<div class="preview-item" onclick="openModal('Bravo', 0)">
-								<img alt="Bravo app screenshots" loading="lazy" src="images/projects/bravo/bravo-thumbnail.png">
-							</div>
-							<div class="preview-item link-preview"
-								onclick="window.open('https://play.google.com/store/apps/details?id=com.hagenwebutvikling.bravo&hl=en', '_blank')">
-								<div class="link-card">
-									<img alt="Bravo logo" loading="lazy" src="images/projects/bravo/bravo-logo.webp">
-									<p>Bravo on Google Play</p>
-								</div>
-							</div>
-							<div class="preview-item link-preview"
-								onclick="window.open('https://apps.apple.com/no/app/bravo/id6466197675', '_blank')">
-								<div class="link-card">
-									<img alt="Bravo logo" loading="lazy" src="images/projects/bravo/bravo-logo.webp">
-									<p>Bravo on App Store</p>
-								</div>
-							</div>
+						<p>A Dart gRPC server and a Flutter client that share one set of Protocol Buffer definitions. I built it as
+							the live demo for my talk to the Persian Flutter Community.</p>
+						<div class="card-actions">
+							<a href="https://github.com/arashmidos/grpc-demo" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Code</span></a>
+							<a href="https://www.youtube.com/watch?v=pHbLJSHtoCs" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Watch the talk</span></a>
+						</div>
+					</div>
+
+					<div class="content-box animated">
+						<div class="i_title">
+							<div class="icon icon-github"><img alt="" loading="lazy" src="images/ic_github_circle.svg" /></div>
+							<div class="pj-name">embedded-sdk</div>
+							<div class="pj-date">Apr 2024 · Flutter, Kotlin, Swift, Outline SDK</div>
+						</div>
+						<p>A Flutter app with an embedded VPN, built on Jigsaw's Outline SDK through native Android and iOS plugins. It
+							is the sample app for my article on reaching users in censored regions.</p>
+						<div class="card-actions">
+							<a href="https://github.com/arashmidos/embedded-sdk" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Code</span></a>
+							<a href="https://medium.com/stackademic/flutter-embedded-vpn-c47144798995" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Read the article</span></a>
+						</div>
+					</div>
+
+					<div class="content-box animated">
+						<div class="i_title">
+							<div class="icon icon-github"><img alt="" loading="lazy" src="images/ic_github_circle.svg" /></div>
+							<div class="pj-name">Flutter-Macos-Widget</div>
+							<div class="pj-date">Oct 2025 · Flutter, Swift, WidgetKit</div>
+						</div>
+						<p>A native macOS WidgetKit widget fed by a Flutter app through App Groups and MethodChannels. The app fetches
+							live Bitcoin prices and refreshes the widget every 5 minutes.</p>
+						<div class="card-actions">
+							<a href="https://github.com/arashmidos/Flutter-Macos-Widget" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Code</span></a>
+							<a href="https://medium.com/stackademic/how-i-built-a-macos-desktop-widget-with-flutter-6805294f16f7" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">Read the article</span></a>
 						</div>
 					</div>
 
@@ -1004,13 +1099,27 @@ But here’s the problem: I’m 𝐧𝐨𝐭 a Figma expert.</p>
 							<li>Educational Resources: Integrated a library of articles and videos with an in-app video
 								streaming feature powered by ExoPlayer.</li>
 						</ul>
-						<div class="preview-grid" id="mediaGallery-myclinic">
+						<div class="preview-grid">
 							<div class="preview-item" onclick="openModal('MyClinic', 0)">
 								<img alt="My Clinic app screenshot" loading="lazy" src="images/projects/myclinic/mc_1.png">
 							</div>
 						</div>
 					</div>
 
+				</div>
+
+				<!-- Section Contact -->
+				<div class="section contact" id="contact-section">
+					<h2 class="title">Contact</h2>
+					<div class="content-box animated">
+						<p>I'm open to fully remote <b>Lead Mobile Engineer</b> and <b>Mobile Tech Lead</b> roles, in any time zone.
+							The quickest way to reach me is email.</p>
+						<div class="card-actions">
+							<a href="mailto:arash.nouri@bihe.org" class="btn btn_animated"><span class="circle">Email me</span></a>
+							<a href="https://www.linkedin.com/in/ar4sh/" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">LinkedIn</span></a>
+							<a href="https://github.com/arashmidos" target="_blank" rel="noopener" class="btn btn_animated"><span class="circle">GitHub</span></a>
+						</div>
+					</div>
 				</div>
 			</div>
 
